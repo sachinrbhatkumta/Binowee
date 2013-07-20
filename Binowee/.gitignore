@@ -1,0 +1,46 @@
+build/*
+bin/*
+lib/*
+.settings/*
+.classpath
+.project
+*.class
+*.jar
+*.ear
+*.war
+.*
+*~
+
+dbsaved.sql
+DataSource.xml
+hibernate-deploy.cfg.xml
+
+#######################
+# OSX temporary files
+#######################
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+#######################
+# Windows temporary files
+#######################
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+!.gitignore
